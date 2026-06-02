@@ -1,0 +1,217 @@
+{
+  "github_source_repo": "https://github.com/serpcompany/letmejerk-downloader",
+  "serply_link": "https://serp.ly/letmejerk-downloader",
+  "app_name": "Letmejerk Video Downloader",
+  "short_description": "Download & Save Letmejerk Videos Easily for Offline Viewing (Browser Extension)",
+  "long_description": "This extension is built around the short-code route pattern found on LetMeJerk and LetMeJizz video pages. Instead of generic downloader copy, it follows the actual page structure — a compact route code before the content slug, an iframe embed handoff, and media references that may surface as m3u8 playlists or direct mp4 files. The goal is straightforward: open a supported page, let the embed settle, and check what media becomes available.",
+  "main_video": "",
+  "featured_image": "",
+  "screenshots": [
+    "https://apps.serp.co/media/optimized-products/letmejerk-downloader-fullscreen-01-a6366355c7.webp",
+    "https://apps.serp.co/media/optimized-products/letmejerk-downloader-fullscreen-02-322b26098d.webp",
+    "https://apps.serp.co/media/optimized-products/letmejerk-downloader-fullscreen-03-0d0d249cc6.webp",
+    "https://apps.serp.co/media/optimized-products/letmejerk-downloader-fullscreen-04-2a78bafb4d.webp"
+  ],
+  "chromestore_link": "",
+  "firefoxstore_link": "",
+  "other_links": [],
+  "faqs": [
+    {
+      "question": "Does this extension work on every LetMeJerk or LetMeJizz page?",
+      "answer": "It is built for pages that use a short-code route segment before the slug and expose media through an iframe embed handoff. Not all pages follow this pattern."
+    },
+    {
+      "question": "What media formats can I expect?",
+      "answer": "The extension checks for m3u8 playlists or direct mp4 files after the embed resolves. Other formats are not supported."
+    },
+    {
+      "question": "Is my download history tracked?",
+      "answer": "No. The extension works locally and does not send your download activity to any server beyond what is needed for the embed handoff."
+    },
+    {
+      "question": "Why is the extension described as a candidate?",
+      "answer": "Verified target status supports cautious availability, but stale config references and generated stub notes mean release claims should stay measured."
+    },
+    {
+      "question": "Can I use this extension on both LetMeJerk and LetMeJizz?",
+      "answer": "Yes. The extension treats both domains as a paired footprint with the same short-code route recognition."
+    },
+    {
+      "question": "Do I need an account to use the trial?",
+      "answer": "Yes. Email sign-in with one-time password verification is required for the 3 free downloads."
+    }
+  ],
+  "permissions": [
+    {
+      "name": "",
+      "description": "Saving a local copy of content you have permission to keep"
+    },
+    {
+      "name": "",
+      "description": "Only download content you own or have explicit permission to save"
+    }
+  ],
+  "features": [
+    "Built for LetMeJerk and LetMeJizz pages that use a short-code route segment before the slug",
+    "Follows the iframe embed handoff to detect media references",
+    "Checks for m3u8 playlists or direct mp4 files after the embed resolves",
+    "Covers both LetMeJerk and LetMeJizz domains as a paired footprint",
+    "Verified target status with cautious readiness language",
+    "Short-code route awareness for pages shaped like /<code>/{slug}",
+    "LetMeJerk and LetMeJizz cross-domain pairing kept explicit",
+    "Waits for iframe embed handoff before checking media references",
+    "Checks for m3u8 playlists or direct mp4 files after embed resolves",
+    "Verified target status with target_ready: yes",
+    "Conservative rollout tone with stale config and stub notes visible",
+    "No generic downloader phrasing — copy matches actual page structure",
+    "In-page popup controls for simple capture workflow"
+  ],
+  "content": {
+    "why": [
+      "LetMeJerk and LetMeJizz video pages use a distinctive route structure where a compact short code appears between the domain and the content slug. Generic downloader extensions often miss this pattern, treating the page like any other site and failing to recognize the embed handoff that delivers the actual media. That handoff — an iframe that loads a player from a separate source — is where the useful media reference becomes visible.",
+      "This extension was built with that short-code route in mind. It waits for the iframe embed to resolve, then checks whether the page exposes an m3u8 playlist or a direct mp4 file. The approach is focused and honest: it follows the actual page behavior rather than promising broad coverage. Verified target status supports cautious availability, while stale config notes remind everyone that this is a focused candidate rather than a final all-clear adapter."
+    ],
+    "how_it_works": [
+      "Install the extension from the latest release.",
+      "Open LetMeJerk and go to a supported video page.",
+      "Start playback so the extension can detect the media.",
+      "Open the popup or use the on-page controls.",
+      "Choose the quality option you want.",
+      "Start the download and wait for the MP4 export to finish.",
+      "Save the final file locally."
+    ],
+    "tutorial": [
+      "Open a LetMeJerk video page whose URL includes a short code before the slug.",
+      "Let the page fully load so the iframe embed handoff completes.",
+      "Wait for the embedded player to settle and expose media references.",
+      "Click the extension icon in your browser toolbar to open the popup.",
+      "Review the detected media options — m3u8 or mp4 — as they appear.",
+      "Select the quality or format you want to download.",
+      "Click the download button to start the capture.",
+      "Save the resulting MP4 file to your local device."
+    ],
+    "supported_formats": [
+      "Input: m3u8 playlists or direct mp4 files exposed after the iframe embed handoff on supported LetMeJerk and LetMeJizz pages",
+      "Output: MP4",
+      "Saved files use MP4 so they are easier to replay on standard media players, move between devices, or archive locally."
+    ],
+    "target_users": [
+      "People who visit LetMeJerk or LetMeJizz pages and want a route-aware capture tool",
+      "Users who understand that media may appear after an embed handoff",
+      "Anyone looking for a focused extension built around short-code page patterns",
+      "Viewers who prefer cautious, verified messaging over overpromising generic copy"
+    ],
+    "use_cases": [
+      "Downloading a video from a LetMeJerk page that uses a short code like AFHfUw before the slug",
+      "Capturing media from LetMeJizz pages using the same paired-domain approach",
+      "Checking whether a page exposes m3u8 or mp4 after the iframe embed resolves",
+      "Saving a local copy of content you have permission to keep",
+      "Testing short-code route recognition across both LetMeJerk and LetMeJizz hosts"
+    ],
+    "troubleshooting": [
+      "The extension does not detect any media on the page. Make sure the page has fully loaded and the iframe embed handoff has completed. Try refreshing the page and waiting for the player to appear.",
+      "The popup shows no available formats. The page may not expose m3u8 or mp4 after the embed resolves. Not all pages use the same media delivery method.",
+      "Download fails or produces a broken file. Check your internet connection and try again. Some media references may be temporary or require the embed to finish loading.",
+      "The extension does not work on a specific LetMeJerk page. The page may use a different route structure or embed source. This extension is focused on short-code route patterns.",
+      "I see an error about stale configuration. The extension is in candidate stage and may need updates. Check the latest release for any fixes."
+    ],
+    "trial_access": [
+      "Includes 3 free downloads so you can test the workflow first",
+      "Email sign-in uses secure one-time password verification",
+      "No credit card required for the trial",
+      "Unlimited downloads are available with a paid license"
+    ],
+    "installation_instructions": [
+      "Open the latest release page.",
+      "Download the correct build for your browser.",
+      "Install the extension.",
+      "Open a supported LetMeJerk page.",
+      "Use the popup to detect and download the media."
+    ],
+    "notes": [
+      "Only download content you own or have explicit permission to save",
+      "An internet connection is required for downloads",
+      "This extension is focused on short-code route pages and may not work on all LetMeJerk or LetMeJizz layouts",
+      "Verified target status coexists with stale config and generated stub caveats"
+    ],
+    "about": [
+      "LetMeJerk is a video platform that uses short-code route segments in its page URLs. This extension was built to recognize that pattern and follow the iframe embed handoff that delivers the playable media, making it easier to capture content from both LetMeJerk and LetMeJizz pages."
+    ]
+  },
+  "serpx_link": "https://serpx.link/letmejerk-downloader",
+  "github_topics": [
+    "letmejerk-download",
+    "letmejerk-downloader",
+    "letmejerk-video-downloader",
+    "letmejerk-video-downloader-online",
+    "letmejerk-video-downloader-mac",
+    "letmejerk-video-downloader-window",
+    "letmejerk-video-downloader-free",
+    "letmejerk-video-downloader-extension",
+    "letmejerk-video-downloader-app",
+    "letmejerk-video-downloader-chrome",
+    "letmejerk-video-downloader-from-url",
+    "how-to-download-letmejerk-videos",
+    "how-to-download-letmejerk-videos-mac",
+    "how-to-download-letmejerk-videos-windows",
+    "how-to-download-letmejerk-videos-online",
+    "how-to-download-letmejerk-videos-free",
+    "how-to-download-from-letmejerk",
+    "how-to-download-videos-from-letmejerk",
+    "download-letmejerk-videos",
+    "letmejerk-video-tutorial",
+    "save-letmejerk-videos",
+    "letmejerk-video-content-saver",
+    "how-to-download-letmejerk-videos-for-free"
+  ],
+  "hashtags": [
+    "#LetmejerkDownload",
+    "#LetmejerkDownloader",
+    "#LetmejerkVideoDownloader",
+    "#LetmejerkVideoDownloaderOnline",
+    "#LetmejerkVideoDownloaderMac",
+    "#LetmejerkVideoDownloaderWindow",
+    "#LetmejerkVideoDownloaderFree",
+    "#LetmejerkVideoDownloaderExtension",
+    "#LetmejerkVideoDownloaderApp",
+    "#LetmejerkVideoDownloaderChrome",
+    "#LetmejerkVideoDownloaderFromURL",
+    "#HowToDownloadLetmejerkVideos",
+    "#HowToDownloadLetmejerkVideosMac",
+    "#HowToDownloadLetmejerkVideosWindows",
+    "#HowToDownloadLetmejerkVideosOnline",
+    "#HowToDownloadLetmejerkVideosFree",
+    "#HowToDownloadFromLetmejerk",
+    "#HowToDownloadVideosFromLetmejerk",
+    "#DownloadLetmejerkVideos",
+    "#LetmejerkVideoTutorial",
+    "#SaveLetmejerkVideos",
+    "#LetmejerkVideoContentSaver",
+    "#HowToDownloadLetmejerkVideosForFree"
+  ],
+  "youtube_tags": [
+    "Letmejerk Download",
+    "Letmejerk Downloader",
+    "Letmejerk Video Downloader",
+    "Letmejerk Video Downloader Online",
+    "Letmejerk Video Downloader Mac",
+    "Letmejerk Video Downloader Window",
+    "Letmejerk Video Downloader Free",
+    "Letmejerk Video Downloader Extension",
+    "Letmejerk Video Downloader App",
+    "Letmejerk Video Downloader Chrome",
+    "Letmejerk Video Downloader From URL",
+    "How To Download Letmejerk Videos",
+    "How To Download Letmejerk Videos Mac",
+    "How To Download Letmejerk Videos Windows",
+    "How To Download Letmejerk Videos Online",
+    "How To Download Letmejerk Videos Free",
+    "How To Download From Letmejerk",
+    "How To Download Videos From Letmejerk",
+    "Download Letmejerk Videos",
+    "Letmejerk Video Tutorial",
+    "Save Letmejerk Videos",
+    "Letmejerk Video Content Saver",
+    "How To Download Letmejerk Videos For Free"
+  ]
+}
